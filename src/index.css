@@ -1,0 +1,123 @@
+:root {
+  --primary: #0f766e;
+  --primary-dark: #0b5f58;
+  --secondary: #0ea5e9;
+  --bg-gradient: linear-gradient(135deg, #b3ecff, #7fe3d6);
+  --card-bg: #ffffff;
+  --danger: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Roboto, system-ui, sans-serif;
+  background: #f4f7f9;
+}
+
+.hero {
+  background: var(--bg-gradient);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #083344;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #134e4a;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #083344;
+  color: white;
+  padding: 14px 26px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: white;
+  color: #083344;
+  padding: 14px 26px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #083344;
+  cursor: pointer;
+}
+
+.features {
+  max-width: 1100px;
+  margin: -40px auto 40px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card h3 {
+  margin-top: 12px;
+  color: #083344;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #374151;
+}
+
+.emergency {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.emergency button {
+  background: var(--danger);
+  color: white;
+  padding: 16px 40px;
+  font-size: 20px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .btn-primary,
+  .secondary-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  header nav {
+    display: none;
+  }
+}
+.hero {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #bae6fd, #99f6e4);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
