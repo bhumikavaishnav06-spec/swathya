@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for my project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhumikavaishnav06-spec/swathya.git"
+  },
+  "author": "Priyanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhumikavaishnav06-spec/swathya/issues"
+  },
+  "homepage": "https://github.com/bhumikavaishnav06-spec/swathya#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
